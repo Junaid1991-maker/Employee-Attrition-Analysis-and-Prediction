@@ -1,0 +1,84 @@
+HR Employee Attrition Analysis
+Overview
+This project analyzes employee attrition data to identify key factors influencing employee turnover and to develop a predictive model for attrition. The goal is to provide HR departments with actionable insights to improve employee retention.
+
+Dataset
+The dataset used is HR-Employee-Attrition.csv, which contains various employee attributes, including:
+
+Demographics (Age, Gender, MaritalStatus)
+
+Job-related information (Department, JobRole, JobLevel)
+
+Compensation (MonthlyIncome, MonthlyRate, DailyRate, HourlyRate)
+
+Work history (YearsAtCompany, TotalWorkingYears, NumCompaniesWorked)
+
+Satisfaction and other metrics (JobSatisfaction, EnvironmentSatisfaction, WorkLifeBalance)
+
+Travel-related information (BusinessTravel)
+
+Other factors (OverTime, StockOptionLevel, Education, EducationField, DistanceFromHome)
+
+The target variable is Attrition (Yes/No).
+
+Analysis and Findings
+The analysis reveals several factors that influence employee attrition:
+
+Key Drivers of Attrition
+OverTime: Employees working overtime are significantly more likely to leave.
+
+MonthlyIncome: Lower monthly income is strongly associated with higher attrition.
+
+JobLevel: Employees at lower job levels have a higher propensity to leave.
+
+YearsAtCompany: Shorter tenure at the company is associated with increased attrition.
+
+NumCompaniesWorked: Employees with a history of working for more companies are more likely to leave.
+
+BusinessTravel: Frequent business travel is linked to higher attrition.
+
+MaritalStatus: Single employees exhibit a higher attrition rate than married or divorced employees.
+
+Other Factors
+Age: Younger employees may be slightly more likely to leave.
+
+Department: Attrition rates vary across departments, with Sales having a relatively high rate.
+
+EducationField: Employees with Marketing or Technical Degrees show a relatively higher attrition rate.
+
+Factors with Less Influence
+MonthlyRate: The standard monthly rate of pay does not appear to be a strong predictor of attrition.
+
+HourlyRate, DailyRate: Hourly and daily rates have little impact on attrition.
+
+Education: Overall education level is not a major differentiating factor.
+
+JobInvolvement, EnvironmentSatisfaction, JobSatisfaction: These satisfaction metrics, when considered in isolation, do not strongly predict attrition.
+
+Feature Importance
+The feature importance analysis highlights that OverTime is the most critical factor in predicting attrition, followed by StockOptionLevel, JobLevel, and YearsAtCompany.
+
+Recommendations
+Based on these findings, the following recommendations are made:
+
+Reduce Overtime: Address workload issues and minimize overtime to improve employee retention.
+
+Increase Compensation: Ensure competitive monthly income, especially for lower-level employees.
+
+Offer Career Development: Provide clear career paths and growth opportunities to retain employees at lower job levels.
+
+Promote Work-Life Balance: Implement policies and practices that support a healthy work-life balance, especially for frequent travelers and single employees.
+
+Targeted Retention Strategies: Develop specific retention plans for high-risk groups, such as Sales Representatives, Laboratory Technicians, and employees with Marketing or Technical Degrees.
+
+Visualizations
+The following visualizations were used in the analysis:
+
+Box plots: To visualize the relationship between numerical variables and attrition (e.g., Age, MonthlyIncome, YearsAtCompany).
+
+Count plots: To visualize the relationship between categorical variables and attrition (e.g., Department, JobRole, OverTime).
+
+Feature importance plot: To illustrate the relative importance of different features in predicting attrition.
+
+Conclusion
+This analysis provides valuable insights into the factors that drive employee attrition. By addressing the key drivers identified in this study, companies can develop effective retention strategies and reduce employee turnover.
